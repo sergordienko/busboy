@@ -1,0 +1,35 @@
+{
+  "name": "busboy",
+  "version": "1.0.0",
+  "description": "mail grabber & sender",
+  "main": "index.js",
+  "scripts": {
+     "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergordienko/busboy.git"
+  },
+  "keywords": [
+    "node.js",
+    "api",
+    "smtp",
+    "mail",
+    "grabber",
+    "phantom.js"
+  ],
+  "author": "Sergey Gordienko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergordienko/busboy/issues"
+  },
+  "homepage": "https://github.com/sergordienko/busboy#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
